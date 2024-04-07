@@ -19,6 +19,7 @@ This project will be using the packages NumPy and Matplotlib in order to create 
 
 ### How to run
 * python main.py
+* python manage.py runserver
   
 ## Authors
 Samuel Ayers
