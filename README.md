@@ -9,7 +9,7 @@ Mini Project 4
 
 ## Description
 
-This project will be using the packages NumPy and Matplotlib in order to create 5 graphs that output as PNG files.
+This project create a simple polling system using Django
 
 ## Getting Started
 
