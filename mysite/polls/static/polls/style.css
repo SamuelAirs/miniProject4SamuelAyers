@@ -1,8 +1,152 @@
-li a {
-    color: #0000ff;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    background: white url("images/background.png") no-repeat;
-    background-repeat: repeat
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.question-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.question-list li {
+    margin-bottom: 10px;
+}
+
+.question-list a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.question-list a:hover {
+    text-decoration: underline;
+}
+
+
+/* Add these styles to the existing style.css file */
+
+.choice-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.choice-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.choice-text {
+    flex: 1;
+}
+
+.votes {
+    color: #888;
+}
+
+.vote-again {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.vote-again:hover {
+    text-decoration: underline;
+}
+
+/* Add these styles to the existing style.css file */
+
+.choice {
+    margin-bottom: 10px;
+}
+
+.choice input[type="radio"] {
+    margin-right: 5px;
+}
+
+.vote-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.vote-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add these styles to the existing style.css file */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
 }
