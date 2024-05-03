@@ -12,7 +12,9 @@ Mini Project 4
 This project create a simple polling system using Django
 
 ## Getting Started
-
+* python manage.py makemigrations
+* python manage.py  migrate
+* Python manage.py createsuperuser
 ### PIP install instructions
 
 * pip install -r requirements.txt
