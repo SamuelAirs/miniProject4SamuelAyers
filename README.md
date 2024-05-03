@@ -22,6 +22,9 @@ This project create a simple polling system using Django
 ### How to run
 * python main.py
 * python manage.py runserver
+
+## Inspiration
+* https://learndjango.com/tutorials/django-login-and-logout-tutorial
   
 ## Authors
 Samuel Ayers
